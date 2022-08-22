@@ -1,4 +1,7 @@
 # ICARUS
+```
+In educational purposes only
+```
 ![This is an image](https://github.com/Grim1312/ICARUS/blob/ab1bcf1fb07ced069c1426dc2f7c7b1ef66375e6/1-1-ai.png)
 ```
 One more scam project by pony developer, ripoff of Hiddenz v4.0.0
