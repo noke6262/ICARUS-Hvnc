@@ -45,7 +45,7 @@ jobs:
     - name: Build Artifact
       shell: cmd
       run: call .\Build.cmd
-		
+
     # Delete-tag-and-release
     - name: Delete-tag-and-release
       uses: dev-drprasad/delete-tag-and-release@v0.2.0
