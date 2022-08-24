@@ -1,4 +1,4 @@
-name: Build DcRat
+name: Build
 
 on:
   push:
@@ -34,8 +34,8 @@ jobs:
       uses: microsoft/setup-msbuild@v1.0.2
 
     # Install NuGet packages
-    - name: Install NuGet Packages
-      run: nuget restore Update/birdbrainmofo.sln
+    #- name: Install NuGet Packages
+    #  run: nuget restore Update/birdbrainmofo.sln
 
     # Build solution
     - name: Build solution
