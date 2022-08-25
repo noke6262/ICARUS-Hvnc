@@ -1,4 +1,5 @@
 # ICARUS
+Minor updated: added build for newbies to make malware analysis easier ;) 
 ```
 Updated to latest, VS22, just open birdbrainmofo.sln
 [!!!always check for spoofed name which mofos like scammer "dev" love to do] compile and analyze
