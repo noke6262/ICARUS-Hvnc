@@ -1,4 +1,5 @@
 # ICARUS
+Update version 1.0.7N on it's way ^^
 Minor updated: added build for newbies to make malware analysis easier ;) 
 ```
 Updated to latest, VS22, just open birdbrainmofo.sln
